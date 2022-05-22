@@ -4,6 +4,7 @@ on:
   push:
     branches: [master]
   pull_request:
+    branches: [master]
 
 env:
   LAUNCHABLE_TOKEN: ${{ secrets.LAUNCHABLE_TOKEN_GO }}
@@ -15,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: go
+        working-directory: ./
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
