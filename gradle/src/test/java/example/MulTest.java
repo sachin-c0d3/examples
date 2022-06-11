@@ -15,5 +15,6 @@ public class MulTest {
         assertThat(new Mul().calc(11,5), is(55));
         assertThat(new Mul().calc(0,5), is(0));
         assertThat(new Mul().calc(4,8), is(32));
+        assertThat(new Mul().calc(4,9), is(36));
     }
 }
