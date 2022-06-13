@@ -13,6 +13,6 @@ public class AddTest {
         assertThat(new Add().calc(6,4), is(10));
         assertThat(new Add().calc(3,22), is(25));
         assertThat(new Add().calc(3,-5), is(-2));
-        assertThat(new Add().calc(3,-3), is(0);
+        assertThat(new Add().calc(3,-3), is(0));
     }
 }
