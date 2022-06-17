@@ -13,9 +13,14 @@ public class SubTest {
         int max = 50;
         int min = 41;
         int range = max - min + 1;
-        int rand = (int)(Math.random() * (range)) + (min-3);
+        int rand = (int)(Math.random() * (range)) + (min-5);
         if (rand < min || rand  > max)  {
           fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        isOdd = (rand2 % 2) == 1;
+        if isOdd == false {
+            fail("flaky failed");
         }
     }
 }
