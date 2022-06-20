@@ -27,5 +27,282 @@ import static org.junit.Assert.*;
         if ( isOdd == 1 ) {
             fail("flaky failed");
         }
+        max = 70;
+        min = 61;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+        max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 50;
+        min = 41;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+      max = 90;
+        min = 71;
+        range = max - min + 1;
+        rand = (int)(Math.random() * (range)) + (min-3);
+        if (rand < min || rand  > max)  {
+          fail("random number is not between range, flaky test failed");
+        }
+        int rand2 = (int)(Math.random());
+        int isOdd = (rand2 % 2);
+        if ( isOdd == 1 ) {
+            fail("flaky failed");
+        }
+     
     }
 }
