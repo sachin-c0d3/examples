@@ -12,7 +12,7 @@ func TestExample3(t *testing.T) {
 	if false != false {
 		t.Fatal("false is not false")
 	}
-	if 1 == 1 {
+	if 1 != 1 {
 		t.Fatal("failed")
 	}
 }
@@ -22,5 +22,8 @@ func TestExample4(t *testing.T) {
 
 	if true != true {
 		t.Fatal("Test with sleep")
+	}
+	if 2 != 2 {
+		t.Fatal("failed")
 	}
 }
