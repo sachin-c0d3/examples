@@ -30,8 +30,12 @@ import static org.junit.Assert.*;
     }
   @Test
     public void flaky3() {
-       long timestamp = System.currentTimeMillis() / 1000;
-       if (timestamp < 51) {
+        SimpleDateFormat sdfu  = new SimpleDateFormat("yyyy-MM-dd kk:mm");
+    Date udate = sdfu.parse(dateAndTimeUTC);
+    long timeInMillisSinceEpoch123 = udate.getTime(); 
+    long timestamp = timeInMillisSinceEpoch123 / 1000;
+     
+       if (timestamp > 51) {
         fail("current time seconds is greater than 50.");
        }
     }
