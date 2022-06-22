@@ -30,8 +30,9 @@ import static org.junit.Assert.*;
     }
   @Test
     public void flaky3() {
-       long timestamp = System.currentTimeMillis() / 1000;
-       if (timestamp < 51) {
+       long timestamp = Instant.now().getEpochSecond();
+     
+       if (timestamp > 51) {
         fail("current time seconds is greater than 50.");
        }
     }
