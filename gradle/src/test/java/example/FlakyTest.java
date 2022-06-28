@@ -21,7 +21,7 @@ import static org.junit.Assert.*;
         }
      
        long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 50) {
         fail("current time seconds is greater than 50.");
        }
@@ -30,7 +30,7 @@ import static org.junit.Assert.*;
     public void flaky2() {
        long timestamp = System.currentTimeMillis() / 1000;
        long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 56) {
         fail("current time seconds is greater than 50.");
        }
@@ -40,7 +40,7 @@ import static org.junit.Assert.*;
        Calendar c = Calendar.getInstance(); 
        long timestamp = c.getTimeInMillis() / 1000;
         long timestamp = System.currentTimeMillis() / 1000;
-        timestamp = timestamp % 60
+        timestamp = timestamp % 60;
      
        if (timestamp > 51) {
         fail("current time seconds is greater than 50.");
@@ -51,7 +51,7 @@ import static org.junit.Assert.*;
        long timestamp = System.currentTimeMillis() / 1000;
       System.out.print(timestamp);
        long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 50) {
         fail("current time seconds is greater than 50.");
        }
@@ -61,7 +61,7 @@ import static org.junit.Assert.*;
        long timestamp = System.currentTimeMillis() / 1000;
      System.out.print(timestamp);
       long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 50) {
         fail("current time seconds is greater than 50.");
        }
@@ -71,7 +71,7 @@ import static org.junit.Assert.*;
        long timestamp = System.currentTimeMillis() / 1000;
      System.out.print(timestamp);
       long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 52) {
         fail("current time seconds is greater than 50.");
        }
@@ -81,7 +81,7 @@ import static org.junit.Assert.*;
        long timestamp = System.currentTimeMillis() / 1000;
      System.out.print(timestamp);
       long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 53) {
         fail("current time seconds is greater than 50.");
        }
@@ -99,7 +99,7 @@ import static org.junit.Assert.*;
        long timestamp = System.currentTimeMillis() / 1000;
      System.out.print(timestamp);
       long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 52) {
         fail("current time seconds is greater than 50.");
        }
@@ -109,7 +109,7 @@ import static org.junit.Assert.*;
        long timestamp = System.currentTimeMillis() / 1000;
      System.out.print(timestamp);
       long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 53) {
         fail("current time seconds is greater than 50.");
        }
@@ -128,7 +128,7 @@ import static org.junit.Assert.*;
        long timestamp = System.currentTimeMillis() / 1000;
      System.out.print(timestamp);
       long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 52) {
         fail("current time seconds is greater than 50.");
        }
@@ -138,7 +138,7 @@ import static org.junit.Assert.*;
        long timestamp = System.currentTimeMillis() / 1000;
      System.out.print(timestamp);
       long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 53) {
         fail("current time seconds is greater than 50.");
        }
@@ -156,7 +156,7 @@ import static org.junit.Assert.*;
        long timestamp = System.currentTimeMillis() / 1000;
      System.out.print(timestamp);
       long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 52) {
         fail("current time seconds is greater than 50.");
        }
@@ -166,7 +166,7 @@ import static org.junit.Assert.*;
        long timestamp = System.currentTimeMillis() / 1000;
      System.out.print(timestamp);
       long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 53) {
         fail("current time seconds is greater than 50.");
        }
@@ -199,7 +199,7 @@ import static org.junit.Assert.*;
        long timestamp = System.currentTimeMillis() / 1000;
      System.out.print(timestamp);
       long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 52) {
         fail("current time seconds is greater than 50.");
        }
@@ -209,7 +209,7 @@ import static org.junit.Assert.*;
        long timestamp = System.currentTimeMillis() / 1000;
      System.out.print(timestamp);
       long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 52) {
         fail("current time seconds is greater than 50.");
        }
@@ -219,7 +219,7 @@ import static org.junit.Assert.*;
        long timestamp = System.currentTimeMillis() / 1000;
      System.out.print(timestamp);
       long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 53) {
         fail("current time seconds is greater than 50.");
        }
@@ -229,7 +229,7 @@ import static org.junit.Assert.*;
        long timestamp = System.currentTimeMillis() / 1000;
      System.out.print(timestamp);
       long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 55) {
         fail("current time seconds is greater than 50.");
        }
@@ -239,7 +239,7 @@ import static org.junit.Assert.*;
        long timestamp = System.currentTimeMillis() / 1000;
      System.out.print(timestamp);
       long timestamp = System.currentTimeMillis() / 1000;
-       timestamp = timestamp % 60
+       timestamp = timestamp % 60;
        if (timestamp > 54) {
         fail("current time seconds is greater than 50.");
        }
