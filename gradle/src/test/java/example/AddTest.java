@@ -12,4 +12,12 @@ public class AddTest {
         assertThat(new Add().calc(14,4), is(18));
         assertThat(new Add().calc(14,8), is(22));
     }
+    @Test
+    public void calc() {
+        assertThat(new Add().calc(3,0), is(3));
+    }
+    @Test
+    public void calc() {
+        assertThat(new Add().calc(34,9), is(7));
+    }
 }
